@@ -26,6 +26,8 @@ namespace Snake
 
         private void Snake_Move(object sender, KeyEventArgs e)
         {
+            
+            // HOLA ACA ESTUVO FACU
             int numeroContador = Convert.ToInt32(lblContador.Text);
 
             if (e.KeyCode == Keys.A)
@@ -94,6 +96,11 @@ namespace Snake
         }
 
         private void lblContador_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
